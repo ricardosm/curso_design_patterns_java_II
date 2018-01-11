@@ -1,4 +1,4 @@
-package aula1.padrao_factory.conexaoBanco.solucao.exercicioPratico;
+package aula1.padrao_factory.conexaoBanco.solucaoExercicioPratico;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
