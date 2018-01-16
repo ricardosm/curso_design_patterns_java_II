@@ -11,7 +11,7 @@ public class Soma implements Expressao {
 	}
 	
 	@Override
-	public int avalia() {
+	public double avalia() {
 		return esquerda.avalia() + direita.avalia();
 	}
 

@@ -2,14 +2,14 @@ package aula4.padrao_interpreter.calculadora;
 
 public class Numero implements Expressao {
 	
-	private int numero;
+	private double numero;
 
-	public Numero(int numero) {
+	public Numero(double numero) {
 		this.numero = numero;
 	}
 	
 	@Override
-	public int avalia() {
+	public double avalia() {
 		return numero;
 	}
 

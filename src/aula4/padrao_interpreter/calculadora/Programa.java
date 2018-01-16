@@ -9,7 +9,7 @@ public class Programa {
 
         Expressao conta = new Soma(esquerda, direita);
 
-        int resultado = conta.avalia();
+        double resultado = conta.avalia();
         System.out.println(resultado);
     }
 }
