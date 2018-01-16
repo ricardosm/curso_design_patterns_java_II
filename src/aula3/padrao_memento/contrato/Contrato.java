@@ -34,4 +34,10 @@ public class Contrato {
 	public Estado salvaEstado() {
 		return new Estado(new Contrato(this.data, this.cliente, this.tipo));
 	}
+	
+	public void restaura(Estado estado) {
+		this.data = estado.getContrato().getData();
+		this.cliente = estado.getContrato().getCliente();
+		this.tipo = estado.getContrato().getTipo();
+	}
 }

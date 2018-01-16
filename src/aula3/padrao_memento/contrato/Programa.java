@@ -23,5 +23,11 @@ public class Programa {
 		System.out.println(historico.pega(2).getContrato().getTipo());
 		System.out.println(historico.pega(1).getContrato().getTipo());
 		System.out.println(historico.pega(0).getContrato().getTipo());
+		
+		System.out.println("Estado Atual do Contrato: " + c1.getTipo());
+		
+		c1.restaura(historico.pega(1));
+		
+		System.out.println("Estado Restaurado: " + c1.getTipo());
 	}
 }
